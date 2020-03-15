@@ -1,0 +1,9 @@
+*{
+
+    font-family: serif;
+}
+
+.row{
+    background: linear-gradient(black, silver, blue);
+    height:20vh;
+}
