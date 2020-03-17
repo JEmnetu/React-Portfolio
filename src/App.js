@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import About from './Pages/About/About';
 import Contact from './Components/Contact/Contact';
-import Projects from './Components/Projects/Projects';
+import Projects from './Pages/About/Projects/Projects';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";

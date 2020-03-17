@@ -10,7 +10,7 @@ import './About.css'
 class About extends Component {
     state = {  }
     render() { 
-        return ( <div>
+        return ( <div id="target">
             {/* <Navbar />
             <Title/> */}
             <Intro 

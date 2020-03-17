@@ -1,12 +1,15 @@
 .navbar{
-    background-color:rgb(172, 171, 171);
+    /* background-color:rgb(172, 171, 171); */
+    background-color:rgb(100, 0, 0);
+    color:white;
+    border-bottom: black solid 6px;
    
 }
 
 .nav-link{
-    color:black;
+    color:white;
 }
 
 .navbar-brand{
-    color:black;
+    color:white;
 }

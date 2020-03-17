@@ -1,5 +1,6 @@
-#root{
-  background: linear-gradient(silver, black);
+
+#target{
+  background: linear-gradient(black, red);
 }
 
 .App {
