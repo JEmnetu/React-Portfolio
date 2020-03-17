@@ -1,0 +1,13 @@
+#main-text{
+    margin-top:6em;
+    width:50vw;
+    text-align: center;
+    background-color: rgb(197, 195, 195);
+    opacity: .5;
+    color: black;border: solid black;
+}
+
+#target{
+    background: linear-gradient(black, red);
+    height:100vh;
+}
