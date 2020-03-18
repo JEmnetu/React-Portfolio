@@ -3,6 +3,11 @@
   background: linear-gradient(black, red);
 }
 
+.card-img-top{
+  height:12em;
+  
+}
+
 .App {
   text-align: center;
 

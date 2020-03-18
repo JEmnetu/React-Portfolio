@@ -4,7 +4,7 @@ class Card extends Component {
     state = {  }
     render() { 
         return ( 
-    <div className="card mb-3" style={{border:"solid 4px black"}}>
+    <div className="card mb-5" style={{border:"solid 4px black"}}>
           <img src={this.props.image} className="card-img-top" alt="Project"></img>
             <div className="card-body">
             <h5 className="card-title">{this.props.name}</h5>

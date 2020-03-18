@@ -4,6 +4,7 @@ import Intro from '../../Components/Intro/Intro';
 import Title from '../../Components/Title/Title';
 import Footer from '../../Components/Footer/Footer';
 import imag from '../../images/Profile_Pic.png';
+
 import './About.css'
 
 
@@ -18,6 +19,7 @@ class About extends Component {
             town="Reisterstown, Maryland"
             job="Full Stack Developer"
             image={imag}
+            
             imgH="250px"
             imgW="250px"
             >
