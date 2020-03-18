@@ -1,9 +1,9 @@
 [
-    {"id":1, "name":"Password Generator", "src":"/images/password.png"},
-    {"id":2, "name":"Stovetop", "src":"images/Stovetop.png"},
-    {"id":3, "name":"Weather App", "src":"/images/weather.png"},
-    {"id":4, "name":"30 Minute Workout", "src":"/images/workout.png"},
-    {"id":5, "name":"Note Taker App", "src":"/images/Note-App.png"},
-    {"id":6, "name":"Day Planner", "src":"/images/planner.png"}
+    {"id":1, "name":"Password Generator", "src":"/images/password.png", "github":"https://github.com/JEmnetu/Password-Generator", "deploy":"https://jemnetu.github.io/Password-Generator/"},
+    {"id":2, "name":"Stovetop", "src":"images/Stovetop.png", "github":"https://github.com/JEmnetu/Stovetop", "deploy":"http://stovetop.herokuapp.com/home"},
+    {"id":3, "name":"Weather App", "src":"/images/weather.png", "github":"https://github.com/JEmnetu/Weather-Application", "deploy":"https://github.com/JEmnetu/Weather-Application"},
+    {"id":4, "name":"30 Minute Workout", "src":"/images/workout.png", "github":"https://github.com/kshep425/30-Minute-Workouts", "deploy":"https://kshep425.github.io/30-Minute-Workouts/"},
+    {"id":5, "name":"Note Taker App", "src":"/images/Note-App.png", "github":"https://github.com/JEmnetu/Express-Note-Taker", "deploy":"https://arcane-sands-29933.herokuapp.com/"},
+    {"id":6, "name":"Day Planner", "src":"/images/planner.png", "github":"https://github.com/JEmnetu/Day-Planner", "deploy":"https://jemnetu.github.io/Day-Planner/"}
 ]
 

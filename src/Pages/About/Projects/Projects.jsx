@@ -19,6 +19,8 @@ class Projects extends Component {
                      <Card name={this.state.data[i].name}
                            image={this.state.data[i].src}
                            key={i}
+                           github={this.state.data[i].github}
+                           deploy={this.state.data[i].deploy}
                      />
                       </div>  
                  )}

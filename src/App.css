@@ -8,6 +8,16 @@
   
 }
 
+.btn-danger{
+  border: solid 4px black;
+  width: 100%;
+}
+
+.btn-danger :hover{
+  border: solid 4px black;
+  color:black;
+}
+
 .App {
   text-align: center;
 
