@@ -7,6 +7,9 @@
     color: black;border: solid black;
 }
 
+#mainHeader{
+    margin-bottom: .5em;
+}
 #target{
     background: linear-gradient(black, red);
     height:100vh;

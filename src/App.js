@@ -9,7 +9,9 @@ import Footer from './Components/Footer/Footer';
 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-let socialMedia = {"linkedin":"https://www.linkedin.com/in/habtemariamje/", "github":"https://www.github.com/Jemnetu"};
+let userInfo = {"linkedin":"https://www.linkedin.com/in/habtemariamje/", 
+                "github":"https://www.github.com/Jemnetu",
+                "email":"J.habtema@gmail.com"};
 function App() {
   
   return (
@@ -17,7 +19,7 @@ function App() {
       
         <Navbar />
         <Switch>
-        <Route exact path="/Contact" render={(props)=><Contact {...props} github={socialMedia.github} linkedin={socialMedia.linkedin} />}/>
+        <Route exact path="/Contact" render={(props)=><Contact {...props} github={userInfo.github} linkedin={userInfo.linkedin} email={userInfo.email} />}/>
         
         <Route exact path="/" component={About}/>
         <Route exact path="/Projects" component={Projects}/>
