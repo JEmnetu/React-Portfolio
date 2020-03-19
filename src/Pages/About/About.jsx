@@ -23,7 +23,8 @@ class About extends Component {
             imgH="250px"
             imgW="250px"
             >
-                Full Stack Web Developer from Reisterstown, Maryland. 
+                Full Stack Web Developer from Reisterstown, Maryland. Currently enrolled in the Full
+                Stack Web Development Bootcamp at Johns Hopkins University, studying the MERN Stack.
             </Intro>
 
         </div> );

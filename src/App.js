@@ -11,13 +11,14 @@ import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 let userInfo = {"linkedin":"https://www.linkedin.com/in/habtemariamje/", 
                 "github":"https://www.github.com/Jemnetu",
+                "resume":"https://drive.google.com/file/d/1k5WNRdzdJt9q3k6XZLcU_6wC-FMJJp80/view?usp=sharing",
                 "email":"J.habtema@gmail.com"};
 function App() {
   
   return (
     <Router>
       
-        <Navbar />
+        <Navbar resume={userInfo.resume} />
         <Switch>
         <Route exact path="/Contact" render={(props)=><Contact {...props} github={userInfo.github} linkedin={userInfo.linkedin} email={userInfo.email} />}/>
         

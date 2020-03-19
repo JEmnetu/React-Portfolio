@@ -3,7 +3,7 @@ import './Navbar.css';
 
 
 class Navbar extends Component {
-    state = {  }
+    
     render() { 
         return ( <div className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="/">My Portfolio</a>
@@ -24,7 +24,7 @@ class Navbar extends Component {
               <a className="nav-link" href="/Contact">Contact</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://drive.google.com/file/d/1uLKSLwVakkulZ8MMoII3wGHhIdUx3_FL/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a className="nav-link" href={this.props.resume} target="_blank" rel="noopener noreferrer">Resume</a>
             </li>
 
           </ul>
