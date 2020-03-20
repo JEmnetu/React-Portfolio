@@ -7,6 +7,10 @@
     color: black;border: solid black;
 }
 
+li{
+    list-style-type: none;
+    text-align: center;
+}
 #mainHeader{
     margin-bottom: .5em;
 }
