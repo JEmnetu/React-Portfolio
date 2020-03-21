@@ -1,5 +1,6 @@
 #main-text{
     margin-top:6em;
+    
     width:50vw;
     text-align: center;
     background-color: rgb(197, 195, 195);
@@ -7,16 +8,38 @@
     color: black;border: solid black;
 }
 
-li{
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display:inline-block;
     list-style-type: none;
     text-align: center;
+    margin:1em;
+   
 }
+
+ul li :hover{
+    color:red;
+}
+
+ul .fab{
+  color: black;
+}
+
+/* ul .fab a :hover{
+    color:red;
+} */
+
 #mainHeader{
     margin-bottom: .5em;
 }
 #target{
     background: linear-gradient(black, red);
     height:100vh;
+    
 }
 
 #connectDiv a{
@@ -30,6 +53,8 @@ li{
 }
 
 .fa-github{
-    margin-left: 3.6em;
-    margin-right: 1em;
+    /* margin-left: 3.6em;
+    margin-right: 1em; */
+    margin-left: -1.5em;
+
 }
