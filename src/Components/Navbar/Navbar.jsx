@@ -36,13 +36,14 @@ class Navigation extends Component {
 <div>
       <Navbar  style={{ backgroundColor:'rgb(100, 0, 0)',
     color:"white",
-    borderBottom: "black solid 6px"}}>
+    borderBottom: "black solid 6px",
+    }}>
       <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/Projects">Projects</Nav.Link>
         <Nav.Link href="/Contact">Contact</Nav.Link>
-        <Nav.Link href={this.props.resume}>Resume</Nav.Link>
+        <Nav.Link href={this.props.resume} target="_blank">Resume</Nav.Link>
       </Nav>
     
     </Navbar>

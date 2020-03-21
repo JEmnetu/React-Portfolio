@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 let userInfo = {"linkedin":"https://www.linkedin.com/in/habtemariamje/", 
                 "github":"https://www.github.com/Jemnetu",
-                "resume":"https://drive.google.com/file/d/1k5WNRdzdJt9q3k6XZLcU_6wC-FMJJp80/view?usp=sharing",
+                "resume":"https://drive.google.com/file/d/1A0hXCj-zwxs3g1cmz6cBpgIIUt1c1jje/view?usp=sharing",
                 "email":"J.habtema@gmail.com"};
 function App() {
   

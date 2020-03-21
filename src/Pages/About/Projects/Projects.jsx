@@ -3,6 +3,7 @@ import {Jumbotron, CardGroup} from 'react-bootstrap'
 import Card from '../../../Components/Cards/Card';
 import projectData from '../../../project-data.json';
 import './Project.css';
+
  
 class Projects extends Component {
     state = { data:projectData }

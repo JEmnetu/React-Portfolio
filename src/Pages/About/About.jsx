@@ -3,14 +3,16 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Intro from '../../Components/Intro/Intro';
 import Title from '../../Components/Title/Title';
 import Footer from '../../Components/Footer/Footer';
-import imag from '../../images/Profile_Pic.png';
+
+
 
 import './About.css'
 
 
 class About extends Component {
-    state = {  }
+    state = { headshot:"./images/Profile_Pic.png" }
     render() { 
+        
         return ( <div id="target">
             {/* <Navbar />
             <Title/> */}
@@ -18,7 +20,7 @@ class About extends Component {
             name="Jacob Habtemariam"
             town="Reisterstown, Maryland"
             job="Full Stack Developer"
-            image={imag}
+            image={this.state.headshot}
             
             imgH="250px"
             imgW="250px"
