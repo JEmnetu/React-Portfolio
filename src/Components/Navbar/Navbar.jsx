@@ -34,7 +34,7 @@ class Navigation extends Component {
       // </div> );
       return (
         <div>
-          <Navbar
+          <Navbar collapseOnSelect expand="sm" variant="dark"
             style={{
               backgroundColor: "rgb(100, 0, 0)",
               color: "white",
@@ -44,6 +44,8 @@ class Navigation extends Component {
             
           >
             <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" id="toggle"/>
+            <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/Projects">Projects</Nav.Link>
@@ -52,6 +54,7 @@ class Navigation extends Component {
                 Resume
               </Nav.Link>
             </Nav>
+            </Navbar.Collapse>
           </Navbar>
         </div>
       );
