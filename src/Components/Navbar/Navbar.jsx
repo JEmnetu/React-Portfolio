@@ -32,23 +32,29 @@ class Navigation extends Component {
           
       //   </div>
       // </div> );
-      return(
-<div>
-      <Navbar  style={{ backgroundColor:'rgb(100, 0, 0)',
-    color:"white",
-    borderBottom: "black solid 6px",
-    }}>
-      <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/Projects">Projects</Nav.Link>
-        <Nav.Link href="/Contact">Contact</Nav.Link>
-        <Nav.Link href={this.props.resume} target="_blank">Resume</Nav.Link>
-      </Nav>
-    
-    </Navbar>
-   
-    </div>);
+      return (
+        <div>
+          <Navbar
+            style={{
+              backgroundColor: "rgb(100, 0, 0)",
+              color: "white",
+              borderBottom: "black solid 6px",
+              
+            }}
+            
+          >
+            <Navbar.Brand href="/">My Portfolio</Navbar.Brand>
+            <Nav className="ml-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/Projects">Projects</Nav.Link>
+              <Nav.Link href="/Contact">Contact</Nav.Link>
+              <Nav.Link href={this.props.resume} target="_blank">
+                Resume
+              </Nav.Link>
+            </Nav>
+          </Navbar>
+        </div>
+      );
     }
 }
  
