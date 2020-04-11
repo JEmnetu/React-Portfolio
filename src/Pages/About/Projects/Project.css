@@ -1,8 +1,8 @@
 
 #target{
     background: linear-gradient(black, red);
-    height:100vh;
-    overflow-y: scroll;
+    height:auto;
+    /* overflow-y: scroll; */
     margin: auto;
     padding-top: 30px;
 }

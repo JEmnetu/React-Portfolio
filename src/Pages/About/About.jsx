@@ -24,9 +24,12 @@ class About extends Component {
             
             imgH="250px"
             imgW="250px"
+            github={this.props.github}
+            linkedin={this.props.linkedin}
             >
-                Full Stack Web Developer from Reisterstown, Maryland. Currently enrolled in the Full
+                Full Stack Web Developer from Reisterstown, Maryland. Recently completed the Full
                 Stack Web Development Bootcamp at Johns Hopkins University, studying the MERN Stack.
+               
             </Intro>
 
         </div> );
